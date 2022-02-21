@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Flexbox Pizzeria</title>
+
+	<link rel="icon" href="./assets/PizzaIcon.png">
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+	 crossorigin="anonymous">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="./assets/PizzaIcon.png" width="30" height="30" class="d-inline-block align-top" alt=""> SSU Pizza
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+			 aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item ">
+						<a class="nav-link active" href="./index.html">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./menu.html">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./Order.html">Order</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="./bio.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	  </nav>
+	<main class="container main-content">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-6">Our Story</h1>
+                <hr class="my-4">
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid" src="./assets/mrflexbox.png" alt="Mr. Pizza">
+            </div>
+            <div class="col-lg-8 mt-1">
+                <p>
+				   The origins of pizza in the United States can be traced back to Italian immigrants in New York. In 1905, Gennaro Lombardi founded the first pizzeria in what is today known as Little Italy.
+					Lombardi started the entire lineage of NYC pizza by making it in the typical New York manner with a coal oven and thin crust.
+					 Pizzamakers taught at Lombardi's eventually expanded around the city, opening second-generation establishments such as Totonno's in Brooklyn in 1924, John's of Bleecker Street in 1929, and others, which are still operating today.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+
+      </main>
+<!--Section: Contact v.2-->
+<div class="row ml-5">
+	<div class="col-md-10 mx-0 mb-3">
+			<form id="contactForm" class="w-75 mx-0 mt-3">
+					<h1 class="h4 ">Write to us</h1>
+			
+					<!-- Default input name -->
+					<label for="defaultFormContactNameEx" class="grey-text">Your name</label>
+					<input type="text" id="name" class="form-control">
+			
+					<br>
+			
+					<!-- Default input email -->
+					<label for="defaultFormContactEmailEx" class="grey-text">Your email</label>
+					<input type="email" id="email" class="form-control">
+			
+					<br>
+			
+					<!-- Default input subject -->
+					<label for="defaultFormContactSubjectEx" class="grey-text">Subject</label>
+					<input type="text" id="subject" class="form-control">
+			
+					<br>
+			
+					<!-- Default textarea message -->
+					<label for="defaultFormContactMessageEx" class="grey-text">Your message</label>
+					<textarea type="text" id="message" class="form-control" rows="3"></textarea>
+			
+					<div class="text-center mt-4">
+						<input type="button" class="btn btn-primary" onclick="contactUs();" value="Send">
+						
+						
+						
+					</div>
+				</form>
+	</div>
+</div>
+<!--Section: Contact v.2-->
+<footer class="footer bg-dark text-light border-top border-info">
+    <div class="container">
+
+        <img src="./assets/images/PizzaIcon.png" width="30" height="30" class="d-inline-block align-middle" alt="">
+        <span> The best pizza in town!</span>
+    </div>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="assets/index.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+ crossorigin="anonymous"></script>
+</body>
+
+</html>
